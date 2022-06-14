@@ -93,3 +93,6 @@ TARGET_CPU_ABI_LIST := $(TARGET_CPU_ABI),$(TARGET_CPU_ABI2)
 endif
 
 TW_HAS_EDL_MODE=true
+
+# For building with TWRP minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
